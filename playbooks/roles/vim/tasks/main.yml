@@ -1,0 +1,4 @@
+- name: Install VIM
+  apt:
+     name: vim
+     state: latest

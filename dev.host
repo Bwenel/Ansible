@@ -1,0 +1,8 @@
+#host1
+#172.17.0.2
+
+[webserver]
+host3
+
+[all:vars]
+env="dev"

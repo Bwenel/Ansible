@@ -1,0 +1,4 @@
+- name: Install Sysstat
+  apt:
+     name: sysstat
+     state: latest

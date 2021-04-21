@@ -1,0 +1,2 @@
+- name: "Test ping host3"
+  ping:

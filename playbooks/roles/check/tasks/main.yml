@@ -1,0 +1,3 @@
+- name: Nom de l'OS et version
+  debug:
+  msg: "{{ ansible_distribution }}"

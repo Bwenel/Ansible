@@ -1,0 +1,6 @@
+#creation user apache
+- name : "Creation utilisateur"
+  user:
+   name: "{{ user }}"
+   state: present
+   password: "{{password | password_hash('sha512')}}"
